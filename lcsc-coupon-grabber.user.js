@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         LCSC Coupon Grabber
-// @name:zh-CN   嘉立创商城抢券助手
+// @name         LCSCCouponGrabber
+// @name:zh-CN   LCSCCouponGrabber
 // @namespace    https://github.com/luoxue3943/LCSC-Coupon-Grabber
-// @version      1.1.1
+// @version      1.1.2
 // @description  嘉立创商城活动页抢券助手：从上到下依次点击“立即抢券”，跳过“去使用”，每次点击间隔 1 秒，自动滚动；PLUS 专区可由用户选择是否参与。
 // @author       珞雪
 // @license      MIT
@@ -21,7 +21,7 @@
   const APP = {
     id: "lcsc-coupon-grabber",
     name: "嘉立创抢券助手",
-    version: "1.1.1",
+    version: "1.1.2",
   };
 
   const CONFIG = {
